@@ -32,7 +32,7 @@ class NPC:
         minage = races[self.race]['age']['adulthood']
         maxage = races[self.race]['age']['old'] + ddutils.roll(races[self.race]['age']['maxage'])
         middleage = races[self.race]['age']['middleage']
-        self.age = random.triangular(minage, maxage, middleage)
+        self.age = round(random.triangular(minage, maxage, middleage))
         baseheight = races[self.race]['size'][self.gender]['baseheight']
         baseweight = races[self.race]['size'][self.gender]['baseweight']
         sizemod = races[self.race]['size'][self.gender]['sizemod']
@@ -74,7 +74,7 @@ class NPC:
             self.bonds.append(bond)
         self.flaw = random.choice(tables['flaw'])
 
-    def description(self):
+    def printdescription(self):
         print(self.name)
         print("{} {} {}".format(self.agedesc.title(), self.gender.title(), self.racename))
         print("{} years old".format(round(self.age)))
@@ -89,3 +89,27 @@ class NPC:
         for bond in self.bonds:
             print("Bond: {}".format(bond['desc']))
         print("Flaw: {}".format(self.flaw['desc']))
+
+    def description(self):
+        description = ""
+        description += self.name + "\n"
+        description += "{} {} {}\n".format(self.agedesc.title(), self.gender.title(), self.racename)
+        description += "{} years old\n".format(round(self.age))
+        description += "{} tall, {} lbs\n".format(ddutils.height_in_feet(self.height), round(self.weight))
+        description += "Appearance: {}\n".format(self.appearance['desc'])
+        description += "High Stat: {}\n".format(self.highability['desc'])
+        description += "Low Stat:  {}\n".format(self.lowability['desc'])
+        description += "Talent: {}\n".format(self.talent['desc'])
+        description += "Mannerism: {}\n".format(self.mannerism['desc'])
+        description += "Interaction: {}\n".format(self.interaction['desc'])
+        description += "{} ideal:  {}\n".format(self.alignment.title(), self.ideal['desc'])
+        for bond in self.bonds:
+            description += "Bond: {}\n".format(bond['desc'])
+        description += "Flaw: {}\n".format(self.flaw['desc'])
+        return description
+
+    def json(self):
+        """
+        Returns JSON dump of character
+        """
+        return json.dumps(self.__dict__)
