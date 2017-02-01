@@ -1,0 +1,610 @@
+{
+  "appearance": [
+    {
+      "desc": "Distinctive jewelry; earrings, necklace, circlet, bracelets, etc",
+      "roll": "1"
+    },
+    {
+      "desc": "Piercings",
+      "roll": "2"
+    },
+    {
+      "desc": "Flamboyant or outlandish clothes",
+      "roll": "3"
+    },
+    {
+      "desc": "Formal, clean clothes",
+      "roll": "4"
+    },
+    {
+      "desc": "Ragged, dirty clothes",
+      "roll": "5"
+    },
+    {
+      "desc": "Pronounced scar",
+      "roll": "6"
+    },
+    {
+      "desc": "Missing teeth",
+      "roll": "7"
+    },
+    {
+      "desc": "Missing fingers",
+      "roll": "8"
+    },
+    {
+      "desc": "Unusual eye color or heterochromia",
+      "roll": "9"
+    },
+    {
+      "desc": "Tattoos",
+      "roll": "10"
+    },
+    {
+      "desc": "Birthmark",
+      "roll": "11"
+    },
+    {
+      "desc": "Unusual skin color",
+      "roll": "12"
+    },
+    {
+      "desc": "Bald",
+      "roll": "13"
+    },
+    {
+      "desc": "Braided hair or beard",
+      "roll": "14"
+    },
+    {
+      "desc": "Unusual hair color",
+      "roll": "15"
+    },
+    {
+      "desc": "Nervous eye twitch",
+      "roll": "16"
+    },
+    {
+      "desc": "Distinctive nose",
+      "roll": "17"
+    },
+    {
+      "desc": "Distinctive posture (crooked or rigid)",
+      "roll": "18"
+    },
+    {
+      "desc": "Exceptionally beautiful",
+      "roll": "19"
+    },
+    {
+      "desc": "Exceptionally ugly",
+      "roll": "20"
+    }
+  ],
+  "abilities": {
+    "high": [
+      {
+        "desc": "Strength - powerful, brawny, strong as an ox",
+        "roll": "1"
+      },
+      {
+        "desc": "Dexterity - lithe, agile, graceful",
+        "roll": "2"
+      },
+      {
+        "desc": "Constitution - hardy, hale, healthful",
+        "roll": "3"
+      },
+      {
+        "desc": "Intelligence - studious, learned, inquisitive",
+        "roll": "4"
+      },
+      {
+        "desc": "Wisdom - perceptive, spiritual, insightful",
+        "roll": "5"
+      },
+      {
+        "desc": "Charisma - persuasive, forceful, born leader",
+        "roll": "6"
+      }
+    ],
+    "low": [
+      {
+        "desc": "Strength - Feeble, scrawny",
+        "roll": "1"
+      },
+      {
+        "desc": "Dexterity - clumsy, fumbling",
+        "roll": "2"
+      },
+      {
+        "desc": "Constitution - sickly, pale",
+        "roll": "3"
+      },
+      {
+        "desc": "Intelligence - dim-witted, slow",
+        "roll": "4"
+      },
+      {
+        "desc": "Wisdom - oblivious, absentminded",
+        "roll": "5"
+      },
+      {
+        "desc": "Charisma - dull, boring",
+        "roll": "6"
+      }
+    ]
+  },
+  "talent": [
+    {
+      "desc": "Plays a musical instrument",
+      "roll": "1"
+    },
+    {
+      "desc": "Speaks in several languages fluently",
+      "roll": "2"
+    },
+    {
+      "desc": "Unbelievably lucky",
+      "roll": "3"
+    },
+    {
+      "desc": "Perfect memory",
+      "roll": "4"
+    },
+    {
+      "desc": "Great with animals",
+      "roll": "5"
+    },
+    {
+      "desc": "Great with children",
+      "roll": "6"
+    },
+    {
+      "desc": "Great at solving puzzles",
+      "roll": "7"
+    },
+    {
+      "desc": "Great at one game",
+      "roll": "8"
+    },
+    {
+      "desc": "Great at impersonations",
+      "roll": "9"
+    },
+    {
+      "desc": "Draws beautifully",
+      "roll": "10"
+    },
+    {
+      "desc": "Paints beautifully",
+      "roll": "11"
+    },
+    {
+      "desc": "Sings beautifully",
+      "roll": "12"
+    },
+    {
+      "desc": "Drinks everyone under the table",
+      "roll": "13"
+    },
+    {
+      "desc": "Expert carpenter",
+      "roll": "14"
+    },
+    {
+      "desc": "Expert cook",
+      "roll": "15"
+    },
+    {
+      "desc": "Expert dart thrower and rock skipper",
+      "roll": "16"
+    },
+    {
+      "desc": "Expert juggler",
+      "roll": "17"
+    },
+    {
+      "desc": "Skilled actor and master of disguise",
+      "roll": "18"
+    },
+    {
+      "desc": "Skilled dancer",
+      "roll": "19"
+    },
+    {
+      "desc": "Knows thieves' cant",
+      "roll": "20"
+    }
+  ],
+  "mannerisms": [
+    {
+      "desc": "Prone to singing, whistling, or humming quietly",
+      "roll": "1"
+    },
+    {
+      "desc": "Speaks in rhyme or some other peculiar way",
+      "roll": "2"
+    },
+    {
+      "desc": "Particularly high or low voice",
+      "roll": "3"
+    },
+    {
+      "desc": "Slurs words, lisps, or stutters",
+      "roll": "4"
+    },
+    {
+      "desc": "Enunciates overly clearly",
+      "roll": "5"
+    },
+    {
+      "desc": "Speaks loudly",
+      "roll": "6"
+    },
+    {
+      "desc": "Whispers",
+      "roll": "7"
+    },
+    {
+      "desc": "Uses flowery speech or long words",
+      "roll": "8"
+    },
+    {
+      "desc": "Frequently uses the wrong word",
+      "roll": "9"
+    },
+    {
+      "desc": "Uses colorful oaths and exclamations",
+      "roll": "10"
+    },
+    {
+      "desc": "Makes constant jokes or puns",
+      "roll": "11"
+    },
+    {
+      "desc": "Prone to predictions of doom",
+      "roll": "12"
+    },
+    {
+      "desc": "Fidgets",
+      "roll": "13"
+    },
+    {
+      "desc": "Squirms",
+      "roll": "14"
+    },
+    {
+      "desc": "Stares into the distance",
+      "roll": "15"
+    },
+    {
+      "desc": "Chews something",
+      "roll": "16"
+    },
+    {
+      "desc": "Paces",
+      "roll": "17"
+    },
+    {
+      "desc": "Taps fingers",
+      "roll": "18"
+    },
+    {
+      "desc": "Bites fingernails",
+      "roll": "19"
+    },
+    {
+      "desc": "Twirls hair or tugs beard",
+      "roll": "20"
+    }
+  ],
+  "interaction": [
+    {
+      "desc": "Argumentative",
+      "roll": "1"
+    },
+    {
+      "desc": "Arrogant",
+      "roll": "2"
+    },
+    {
+      "desc": "Blustering",
+      "roll": "3"
+    },
+    {
+      "desc": "Rude",
+      "roll": "4"
+    },
+    {
+      "desc": "Curious",
+      "roll": "5"
+    },
+    {
+      "desc": "Friendly",
+      "roll": "6"
+    },
+    {
+      "desc": "Honest",
+      "roll": "7"
+    },
+    {
+      "desc": "Hot tempered",
+      "roll": "8"
+    },
+    {
+      "desc": "Irritable",
+      "roll": "9"
+    },
+    {
+      "desc": "Ponderous",
+      "roll": "10"
+    },
+    {
+      "desc": "Quiet",
+      "roll": "11"
+    },
+    {
+      "desc": "Suspicious",
+      "roll": "12"
+    }
+  ],
+  "ideals": {
+    "ideal": [
+      "good",
+      "lawful",
+      "neutral",
+      "evil",
+      "chaotic",
+      "other"
+    ],
+    "good": [
+      {
+        "desc": "Beauty",
+        "roll": "1"
+      },
+      {
+        "desc": "Charity",
+        "roll": "2"
+      },
+      {
+        "desc": "Greater good",
+        "roll": "3"
+      },
+      {
+        "desc": "Life",
+        "roll": "4"
+      },
+      {
+        "desc": "Respect",
+        "roll": "5"
+      },
+      {
+        "desc": "Self-sacrifice",
+        "roll": "6"
+      }
+    ],
+    "lawful": [
+      {
+        "desc": "Community",
+        "roll": "1"
+      },
+      {
+        "desc": "Fairness",
+        "roll": "2"
+      },
+      {
+        "desc": "Honor",
+        "roll": "3"
+      },
+      {
+        "desc": "Logic",
+        "roll": "4"
+      },
+      {
+        "desc": "Responsibility",
+        "roll": "5"
+      },
+      {
+        "desc": "Tradition",
+        "roll": "6"
+      }
+    ],
+    "neutral": [
+      {
+        "desc": "Balance",
+        "roll": "1"
+      },
+      {
+        "desc": "Knowledge",
+        "roll": "2"
+      },
+      {
+        "desc": "Live and let live",
+        "roll": "3"
+      },
+      {
+        "desc": "Moderation",
+        "roll": "4"
+      },
+      {
+        "desc": "Neutrality",
+        "roll": "5"
+      },
+      {
+        "desc": "People",
+        "roll": "6"
+      }
+    ],
+    "evil": [
+      {
+        "desc": "Domination",
+        "roll": "1"
+      },
+      {
+        "desc": "Greed",
+        "roll": "2"
+      },
+      {
+        "desc": "Might",
+        "roll": "3"
+      },
+      {
+        "desc": "Pain",
+        "roll": "4"
+      },
+      {
+        "desc": "Retribution",
+        "roll": "5"
+      },
+      {
+        "desc": "Slaughter",
+        "roll": "6"
+      }
+    ],
+    "chaotic": [
+      {
+        "desc": "Change",
+        "roll": "1"
+      },
+      {
+        "desc": "Creativity",
+        "roll": "2"
+      },
+      {
+        "desc": "Freedom",
+        "roll": "3"
+      },
+      {
+        "desc": "Independence",
+        "roll": "4"
+      },
+      {
+        "desc": "No limits",
+        "roll": "5"
+      },
+      {
+        "desc": "Whimsy",
+        "roll": "6"
+      }
+    ],
+    "other": [
+      {
+        "desc": "Aspiration",
+        "roll": "1"
+      },
+      {
+        "desc": "Discovery",
+        "roll": "2"
+      },
+      {
+        "desc": "Glory",
+        "roll": "3"
+      },
+      {
+        "desc": "Nation",
+        "roll": "4"
+      },
+      {
+        "desc": "Redemption",
+        "roll": "5"
+      },
+      {
+        "desc": "Self-knowledge",
+        "roll": "6"
+      }
+    ]
+  },
+  "bond": [
+    {
+      "desc": "Dedicated to fulfilling a personal life goal",
+      "roll": "1"
+    },
+    {
+      "desc": "Protective of close family members",
+      "roll": "2"
+    },
+    {
+      "desc": "Protective of colleagues or compatriots",
+      "roll": "3"
+    },
+    {
+      "desc": "Loyal to a benefactor, patron, or employer",
+      "roll": "4"
+    },
+    {
+      "desc": "Captivated by a romantic interest",
+      "roll": "5"
+    },
+    {
+      "desc": "Drawn to a special place",
+      "roll": "6"
+    },
+    {
+      "desc": "Protective of a sentimental keepsake",
+      "roll": "7"
+    },
+    {
+      "desc": "Protective of a valuable possession",
+      "roll": "8"
+    },
+    {
+      "desc": "Out for revenge",
+      "roll": "9"
+    },
+    {
+      "desc": "Double bond",
+      "roll": "10"
+    }
+  ],
+  "flaw": [
+    {
+      "desc": "Forbidden love or susceptibility to romance",
+      "roll": "1"
+    },
+    {
+      "desc": "Enjoys decadent pleasures",
+      "roll": "2"
+    },
+    {
+      "desc": "Arrogance",
+      "roll": "3"
+    },
+    {
+      "desc": "Envies another creature's possessions or station",
+      "roll": "4"
+    },
+    {
+      "desc": "Overpowering greed",
+      "roll": "5"
+    },
+    {
+      "desc": "Prone to rage",
+      "roll": "6"
+    },
+    {
+      "desc": "Has a powerful enemy",
+      "roll": "7"
+    },
+    {
+      "desc": "Has a specific phobia",
+      "roll": "8"
+    },
+    {
+      "desc": "Shameful or scandalous history",
+      "roll": "9"
+    },
+    {
+      "desc": "Secret crime or misdeed",
+      "roll": "10"
+    },
+    {
+      "desc": "Possession of forbidden lore",
+      "roll": "11"
+    },
+    {
+      "desc": "Foolhardy bravery",
+      "roll": "12"
+    }
+  ]
+}

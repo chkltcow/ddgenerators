@@ -1,0 +1,185 @@
+{
+  "human": {
+    "racename": "Human",
+    "age": {
+      "adulthood": 18,
+      "middleage": 35,
+      "old": 53,
+      "venerable": 70,
+      "maxage": "2d20"
+    },
+    "size": {
+      "male": {
+        "baseheight": 58,
+        "baseweight": 120,
+        "sizemod": "2d10",
+        "weightmod": 5
+      },
+      "female": {
+        "baseheight": 53,
+        "baseweight": 85,
+        "sizemod": "2d10",
+        "weightmod": 5
+      }
+    },
+    "locale": [
+      "en",
+      "de",
+      "it",
+      "fr"
+    ]
+  },
+  "dwarf": {
+    "racename": "Dwarf",
+    "age": {
+      "adulthood": 40,
+      "middleage": 125,
+      "old": 188,
+      "venerable": 250,
+      "maxage": "2d100"
+    },
+    "size": {
+      "male": {
+        "baseheight": 45,
+        "baseweight": 150,
+        "sizemod": "2d4",
+        "weightmod": 7
+      },
+      "female": {
+        "baseheight": 43,
+        "baseweight": 120,
+        "sizemod": "2d4",
+        "weightmod": 7
+      }
+    },
+    "locale": [
+      "en",
+      "de",
+      "sv",
+      "no",
+      "is",
+      "da"
+    ]
+  },
+  "elf": {
+    "racename": "Elf",
+    "age": {
+      "adulthood": 110,
+      "middleage": 175,
+      "old": 263,
+      "venerable": 350,
+      "maxage": "4d100"
+    },
+    "size": {
+      "male": {
+        "baseheight": 64,
+        "baseweight": 100,
+        "sizemod": "2d8",
+        "weightmod": 3
+      },
+      "female": {
+        "baseheight": 64,
+        "baseweight": 90,
+        "sizemod": "2d6",
+        "weightmod": 3
+      }
+    },
+    "locale": [
+      "en",
+      "de",
+      "fr",
+      "it",
+      "da"
+    ]
+  },
+  "gnome": {
+    "racename": "Gnome",
+    "age": {
+      "adulthood": 40,
+      "middleage": 105,
+      "old": 150,
+      "venerable": 200,
+      "maxage": "3d100"
+    },
+    "size": {
+      "male": {
+        "baseheight": 36,
+        "baseweight": 35,
+        "sizemod": "2d4",
+        "weightmod": 1
+      },
+      "female": {
+        "baseheight": 34,
+        "baseweight": 30,
+        "sizemod": "2d4",
+        "weightmod": 1
+      }
+    },
+    "locale": [
+      "en",
+      "de",
+      "fr",
+      "it"
+    ]
+  },
+  "halfelf": {
+    "racename": "Half-Elf",
+    "age": {
+      "adulthood": 20,
+      "middleage": 625,
+      "old": 93,
+      "venerable": 125,
+      "maxage": "3d20"
+    },
+    "size": {
+      "male": {
+        "baseheight": 62,
+        "baseweight": 110,
+        "sizemod": "2d8",
+        "weightmod": 5
+      },
+      "female": {
+        "baseheight": 60,
+        "baseweight": 90,
+        "sizemod": "2d8",
+        "weightmod": 5
+      }
+    },
+    "locale": [
+      "en",
+      "de",
+      "fr",
+      "it"
+    ]
+  },
+  "halfling": {
+    "racename": "Halfling",
+    "age": {
+      "adulthood": 20,
+      "middleage": 50,
+      "old": 75,
+      "venerable": 100,
+      "maxage": "5d20"
+    },
+    "size": {
+      "male": {
+        "baseheight": 32,
+        "baseweight": 30,
+        "sizemod": "2d4",
+        "weightmod": 1
+      },
+      "female": {
+        "baseheight": 30,
+        "baseweight": 25,
+        "sizemod": "2d4",
+        "weightmod": 1
+      }
+    },
+    "locale": [
+      "en",
+      "de",
+      "fr",
+      "it"
+    ]
+  }
+}
