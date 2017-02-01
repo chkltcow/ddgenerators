@@ -65,7 +65,6 @@ class NPC:
         self.ideal = random.choice(tables['ideals'][self.alignment])
         self.bonds = []
         bond = random.choice(tables['bond'])
-        print(bond['roll'])
         if bond['roll'] == '10':
             while len(self.bonds) < 2:
                 bond = random.choice(tables['bond'])
